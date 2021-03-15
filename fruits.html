@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title></title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
+	<script type="text/javascript" src="{{ url_for('static', filename = 'fruits.js') }}"></script>
+</head>
+<body>
+	<p id='Apples'> Apples: {{ order['Apples'] }} </p>
+	<button onClick="add('Apples', 1)"> Order 1 </button>
+    <button onClick="add('Apples', 5)"> Order 5 </button>
+    <button onClick="add('Apples', 10)"> Order 10 </button>
+    <p></p>
+    <button onClick="remove('Apples', 1)"> Remove 1 </button>
+    <button onClick="remove('Apples', 5)"> Remove 5 </button>
+    <button onClick="remove('Apples', 10)"> Remove 10 </button>
+
+    <p id='Oranges'> Oranges: {{ order['Oranges'] }} </p>
+    <button onClick="add('Oranges', 1)"> Order 1 </button>
+    <button onClick="add('Oranges', 5)"> Order 5 </button>
+    <button onClick="add('Oranges', 10)"> Order 10 </button>
+    <p></p>
+    <button onClick="remove('Oranges', 1)"> Remove 1 </button>
+    <button onClick="remove('Oranges', 5)"> Remove 5 </button>
+    <button onClick="remove('Oranges', 10)"> Remove 10 </button>
+
+    <p id='Pears'> Pears: {{ order['Pears'] }} </p>
+    <button onClick="add('Pears', 1)"> Order 1 </button>
+    <button onClick="add('Pears', 5)"> Order 5 </button>
+    <button onClick="add('Pears', 10)"> Order 10 </button>
+    <p></p>
+    <button onClick="remove('Pears', 1)"> Remove 1 </button>
+    <button onClick="remove('Pears', 5)"> Remove 5 </button>
+    <button onClick="remove('Pears', 10)"> Remove 10 </button>
+    
+    <p></p>
+	<button onClick='save()'/> Save </button>
+</body>
