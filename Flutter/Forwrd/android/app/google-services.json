@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "1050374770944",
+    "project_id": "forwrd-7fe46",
+    "storage_bucket": "forwrd-7fe46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050374770944:android:5200c7cf9981017a8923e5",
+        "android_client_info": {
+          "package_name": "com.example.forwrd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050374770944-eo20tumc1k24s2n5klrki3o4ct9d5dl3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.forwrd",
+            "certificate_hash": "a527e6676a1152729a8ff92ae4aeae7fb5da5add"
+          }
+        },
+        {
+          "client_id": "1050374770944-r1pmkjf0gtc7jnaucfr16qhnvrv2a909.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.forwrd",
+            "certificate_hash": "e03cb8005eddf8e2bb537f9fa040ec445a0d3174"
+          }
+        },
+        {
+          "client_id": "1050374770944-tbuirusljdsmt3qlekttrmffm772bjvk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.forwrd",
+            "certificate_hash": "85cc70be95c2d702dbc957f2c0d63eef883d011d"
+          }
+        },
+        {
+          "client_id": "1050374770944-j1fflcvatbo6ndsvgkuhjpuuijc6rflk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcXhwYbueYE232E52g65LT0psSAtRsZ8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050374770944-j1fflcvatbo6ndsvgkuhjpuuijc6rflk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1050374770944-l92bvqbmkhqj0ks02jmn8m603e58ik1r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.forwrd"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
